@@ -2980,7 +2980,7 @@ static int __init input_init(void)
 
 static int __init late_input_booster_init(void)
 {
-#if !defined(CONFIG_INPUT_BOOSTER) // Input Booster +
+#if !defined(CONFIG_INPUT_BOOSTER) && 0// Input Booster +
 	input_booster_init();
 #endif  // Input Booster -
 
