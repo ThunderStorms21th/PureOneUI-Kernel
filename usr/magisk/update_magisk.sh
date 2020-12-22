@@ -17,7 +17,6 @@ else
 	fi
 	magisk_link="https://github.com/topjohnwu/Magisk/releases/download/${nver}/Magisk-${nver}.zip"
 fi
-
 if [ \( -n "$nver" \) -a \( "$nver" != "$ver" \) -o ! \( -f "$DIR/arm/magiskinit64" \) -o \( "$nver" = "canary" \) ]
 then
 	echo "Updating Magisk from $ver to $nver"
